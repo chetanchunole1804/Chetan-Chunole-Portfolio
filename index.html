@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Chunole</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="images/logo.png" type="image/png" sizes="32x32" >
+
+</head>
+
+<body>
+    <div id="loader">
+        <h2>Welcome</h2>
+        <h2>to</h2>
+        <h2>my</h2>
+        <h2>Portfolio</h2>
+    </div>
+    <div class="main">
+        <navbar class="navbar d-flex" id="navbar">
+            <div class="logo">
+                <h2>CC</h2>
+            </div>
+            <div class="links">
+                <a href="#sec1">Home</a>
+                <a href="#sec2">About</a>
+                <a href="#sec3">Projects</a>
+                <a href="#sec5">Skillset</a>
+                <a href="#sec4">Contact</a>
+            </div>
+
+            <i class=" bi bi-list menu" id="menu" ></i>
+        </navbar>
+        <div class="links2" id="item">
+            <i class="bi bi-x-circle" id="close"></i>
+            <a href="#sec1">Home</a>
+            <a href="#sec2">About</a>
+            <a href="#sec3">Projects</a>
+            <a href="#sec5">Skillset</a>
+            <a href="#sec4">Contact</a>
+        </div>
+
+        <div class="container-fluid " id="sec1">
+            <div class="" id="profile-info">
+                <h1 class="">Chetan Chunole</h1></span>
+                <h5 class="">Full Stack Developer</h5></span>
+                <p>"Hello, I'm Chetan Chunole, a passionate Frontend Developer with a flair for creating dynamic 
+                    and responsive web applications. From crafting engaging UI designs to building seamless user 
+                    experiences, I strive to transform ideas into impactful digital solutions. Let’s build something 
+                    amazing together!"</p></span>
+                <!-- <button class="p-btn">Know More</button> -->
+                <a href="#about-info" class="p-btn">Know More</a>
+            </div>
+            <div class="" id="profile-image">
+                <img src="images/chetan2.jpg" alt="profile" id="p-image">
+                <!-- <img src="chetan.jpg" alt="profile" id="p-image"> -->
+            </div>
+        </div>
+
+        <div class="container-fluid" id="sec2">
+            <div class="col m-auto" id="about-image">
+                <img src="images/chetan.jpg" alt="profile" id="a-image">
+            </div>
+            <div class="col m-auto" id="about-info">
+                <h1>About</h1>
+                <p>Hi, I'm Chetan Jankinath Chunole, a passionate and dedicated Frontend Developer from Nagpur, Maharashtra.
+                    I graduated in 2024 with a BCCA degree from RTMNU, achieving 1st rank in my college. 
+                    My technical expertise includes HTML, CSS, JavaScript, React, and Bootstrap, along with hands-on experience in design tools 
+                    like Photoshop and Figma.</p>
+                <p>During my learning journey, I have successfully completed various projects, including a Resume Builder application during my 
+                    college days and a live Real Estate Website for Properties 360. For the real estate project, I designed and developed the Home, 
+                    About, and Contact pages using React, incorporating an intuitive navbar and visually appealing layouts to enhance user engagement. 
+                    Currently, I am working on a Single-Page Portfolio Website, using advanced tools like React, 3.js, and Swiper.js to showcase my skills 
+                    and projects dynamically.</p>
+                <p>I also had the opportunity to intern at Radiant IT Services, Pune, where I gained practical experience working on live projects, refining 
+                    my skills in React and UI/UX design. As part of my Full Stack Development course, I am now advancing my backend knowledge, exploring Node.js, 
+                    Express.js, and MongoDB, and have also completed WordPress training.</p>
+                <!-- <p>I also had the opportunity to intern at Radiant IT Services, Pune, where I gained practical experience working on live projects, refining 
+                    my skills in React and UI/UX design. As part of my Full Stack Development course, I am now advancing my backend knowledge, exploring Node.js, 
+                    Express.js, and MongoDB, and have also completed WordPress training.</p> -->
+            </div>
+        </div>
+
+        <div class="projects" id="sec3">
+            <div class="heading">
+                <h1 class="pr-head">Projects</h1>
+            </div>
+            <div class="card-grp">
+                <div class="card1">
+                    <div class="card-head">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.1.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.2.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.3.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.4.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.5.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr1.6.png"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next swiper-btn"></div>
+                            <div class="swiper-button-prev swiper-btn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h2>Properties 360</h2>
+                        <p>Properties 360 is a React-based real estate website with a navbar, engaging visuals, 
+                            and pages for company info and user contact, offering a smooth user experience.</p>
+                        <!-- <button>Live preview</button> -->
+                        <a href="https://realestat-24-k-property.vercel.app/buy" target="_blank"><button>Live preview</button></a>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card-head">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/pr2.1.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr2.2.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr2.3.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr2.3.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr2.4.png"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next swiper-btn"></div>
+                            <div class="swiper-button-prev swiper-btn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h2>Theme website</h2>
+                        <p>Designed a static theme-based website using JavaScript, showcasing visually appealing layouts and 
+                            consistent design elements for an engaging user interface.</p>
+                        <!-- <button>Live preview</button> -->
+                        <a href="https://chetanchunole1804.github.io/Theme-website/" target="_blank"><button>Live preview</button></a>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card-head">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.1.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.2.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.3.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.4.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.5.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/pr3.6.png"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next swiper-btn"></div>
+                            <div class="swiper-button-prev swiper-btn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h2>Kriyansh Developer</h2>
+                        <p>"Developed 'Kriyansh Developer' website using HTML, CSS, Bootstrap, and JavaScript, featuring a clean, responsive design and interactive elements."</p>
+                        <!-- <button>Live preview</button> -->
+                        <a href="https://chetanchunole1804.github.io/Kriyansh-Developer/" target="_blank"><button>Live preview</button></a>
+                    </div>
+                </div>
+                <!-- <div class="card1">
+                    <div class="card-head">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1730715145675-8186093365fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://plus.unsplash.com/premium_photo-1729096977046-537ebefa1928?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1730616671068-e19a0cf2f12c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1730388053823-01c5c456b766?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://images.unsplash.com/photo-1730388623585-ce2dec1e2355?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0NXx8fGVufDB8fHx8fA%3D%3D"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next swiper-btn"></div>
+                            <div class="swiper-button-prev swiper-btn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h2>Hello</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptates, voluptate sed
+                            perferendis
+                            distinctio consequuntur ipsam iste impedit vel iusto quisquam ullam rem? Eos, sed.</p>
+                        <button>Live preview</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div id="sec5">
+            <div class="skill-head">
+                <h1>Skillsets</h1>
+            </div>
+            <div class="skillset">
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-filetype-html"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>HTML</h3>
+                        <p>HTML is the foundation of webpages, used with CSS and JavaScript for design and interaction.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-filetype-css"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>CSS</h3>
+                        <p>CSS is used to make webpages visually appealing, controlling colors, fonts, spacing, and layout.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-filetype-js"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>JavaScript</h3>
+                        <p>JavaScript (JS) is a programming language used to make web pages interactive and dynamic.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-bootstrap"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>Bootstrap</h3>
+                        <p>Bootstrap is a popular front-end framework for building responsive, mobile-first websites quickly.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-filetype-jsx"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>ReactJs</h3>
+                        <p>React.js is a JavaScript library for building user interfaces, primarily for single-page applications (SPAs).</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-braces"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>GSAP</h3>
+                        <p>GSAP (GreenSock Animation Platform) is a powerful JavaScript library for creating high-performance animations. </p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>SwipperJs</h3>
+                        <p>Swiper.js is a modern, mobile-friendly JavaScript library used for creating touch-enabled, responsive sliders and carousels.</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon">
+                        <i class="bi bi-file-earmark-code-fill"></i>
+                    </div>
+                    <div class="skill-data">
+                        <h3>Tailwind</h3>
+                        <p>Tailwind CSS is a utility-first CSS framework that allows you to build custom designs quickly using pre-defined utility classes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-btn">
+                <button></button>
+            </div>
+        </div>
+
+        <div class="container-fluid " id="sec4">
+            <h1 class="">Get in touch</h1>
+            <div class="contact-container">
+                <div class="contact-us">
+                    <div class="page1">
+                        <h3 class="">Information</h3>
+                        <div class="info-data">
+                            <i class="bi bi-person"></i>
+                            <p>Name : Chetan J. Chunole</p>
+                        </div>
+                        <div class="info-data">
+                            <i class="bi bi-telephone"></i>
+                            <p>Contact : 8605614303</p>
+                        </div>
+                        <div class="info-data">
+                            <i class="bi bi-envelope"></i>
+                            <br>
+                            <p>Email : chetanchunole1804@gmail.com</p>
+                        </div>
+                        <div class="info-data">
+                            <i class="bi bi-linkedin"></i>
+                            <p>Linkdin : <a
+                                    href="https://www.linkedin.com/in/chetanchunole1804?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                    target="_blank">Linkdin Profile</a></p>
+                        </div>
+
+                        <div class="info-data">
+                            <i class="bi bi-github"></i>
+                            <p>GitHub : <a href="https://github.com/chetanchunole1804" target="_blank">GitHub
+                                    Profile</a></p>
+                        </div>
+                    </div>
+
+                    <div class="page2 ">
+                        <h3 class="">Suggestion Form</h3>
+                        <form id="feedback-form">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email Address"
+                                required><br>
+                            <hr>
+
+                            <label for="feedback">Your Feedback or Suggestion:</label><br>
+                            <textarea id="feedback" name="feedback" placeholder="Enter Your Massage..."
+                                required></textarea><br>
+                            <hr>
+                            <span>
+                                <p>*After fill this form will be directly compose the mail.</p>
+                            </span>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-secondary text-center text-lg-start mt-5 ">
+            <div class="text-center p-3 bg-secondary text-white">
+                &copy; 2024 Chetan Chunole. All Rights Reserved.
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+</body>
+
+</html>
+
+
+
+<!-- 
+1. Original Data Fill
+2. Add projects 
+3. Responsive 🆗
+4. Add animation to card and feedback form 🆗
+5. Add Section Skillset Knows 🆗
+-->
